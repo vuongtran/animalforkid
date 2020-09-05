@@ -11,13 +11,16 @@
   margin: 1rem 0;
 }
 
-.cntr-footer {
+.footer {
   height: 80px;
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border-top: 1px solid #ccc; */
+}
+
+.footer__text {
+  font-size: 0.8rem;
 }
 
 .sml-logo {

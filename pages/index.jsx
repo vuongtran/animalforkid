@@ -3,9 +3,7 @@ import Head from "next/head";
 import {
   Container,
   Card,
-  CardText,
   CardTitle,
-  CardBody,
   CardImg,
   CardImgOverlay,
 } from "reactstrap";
@@ -20,12 +18,10 @@ function Collections({ data }) {
       `https://api.unsplash.com//collections/${collectionId}/photos?client_id=${CLIENT_ID}`
     );
     const data = await res.json();
-    console.log("data", data);
     let s = [];
     data.map((i) => {
       s.push(i.urls.full);
     });
-    console.log("s", s);
     setSources(s);
     setToggler(!toggler);
   }
@@ -81,21 +77,17 @@ export default function Home({ data }) {
         <Collections data={data} />
       </Container>
 
-      <footer className="cntr-footer">
-        @2020 Build width Nextjs | Image by Unsplash | Host by Vercel
-        {/* <a
-          href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="sml-logo" />
-        </a> */}
+      <footer className="footer">
+        <span className="footer__text">
+          @2020 Build with Nextjs | Photos by Unsplash | Deploy using Vercel
+        </span>
       </footer>
     </Container>
   );
 }
+
 const CLIENT_ID = "kseVlMa_9dT6X_O7y_cc5S-J_9TUaLmOKINyv63NLWY";
+
 // This gets called on every request
 export async function getServerSideProps() {
   // Fetch data from external API

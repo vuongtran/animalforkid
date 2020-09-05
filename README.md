@@ -1,21 +1,8 @@
-# reactstrap Example
+# animalforkids
 
-This example shows how to use Next.js with [reactstrap](https://reactstrap.github.io/).
+@2020 Build with [Nextjs](https://nextjs.org) | Photos by [Unsplash](https://unsplash.com/) | Deploy using [Vercel](https://vercel.com)
 
-## Deploy your own
+## Hươu cao cổ
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/vercel/next.js/tree/canary/examples/with-reactstrap)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-reactstrap with-reactstrap-app
-# or
-yarn create next-app --example with-reactstrap with-reactstrap-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- https://vi.wikipedia.org/wiki/H%C6%B0%C6%A1u_cao_c%E1%BB%95
+- https://unsplash.com/s/photos/giraffe
